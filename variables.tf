@@ -1,5 +1,5 @@
 variable "region" {
-  default = "eu-west-1"
+  default = "<region>"
   type = string
 }
 
@@ -14,28 +14,28 @@ variable "AZs-2" {
 }
 
 variable "my-vpc" {
-  default = "10.0.0.0/16"
+  default = "<vpc-CIDR>"
   type = string
 }
 
 variable "my_public-subnet" {
-  default = "10.0.1.0/24"
+  default = "<subnet-CIDR>"
   type = string
 }
 
 variable "my_private_subnet" {
-  default = "10.0.2.0/24"
+  default = "<subnet-CIDR>"
   type = string
 }
 
 variable "my_private-db-subnet" {
-  default = "10.0.3.0/24"
+  default = "<subnet-CIDR>"
   type = string
 }
 
 # EC2 variables
 variable "env" {
-  default = "Dev"
+  default = "<ENV>"
   type = string
 }
 
@@ -50,22 +50,22 @@ variable "Private-EC2-InstanceCount" {
 }
 
 variable "EC2-Instnace-Type" {
-    default = "t2.micro"
+    default = "<instnace-type>"
     type = string
 }
 
 variable "Public-ami" {
-    default = "ami-0df368112825f8d8f"
+    default = "<ami-id>"
     type = string
 }
 
 # RDS Variabls
 variable "rds-username" {
-  default = "admin"
+  default = "username"
   type = string
 }
  
 variable "rds-passwd" {
-  default = "admin123"
+  default = "pass"
   type = string
 }
