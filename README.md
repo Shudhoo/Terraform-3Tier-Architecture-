@@ -42,6 +42,8 @@ Setting up a 3-tier architecture using Terraform was an insightful experience. W
 
 ## Setup Instructions
 
+You can add resources if you want and replace the variables in the **`variables.tf`** file
+
 ### Prerequisites
 
 - **Terraform** (version 5.95.0 or higher) installed on your local machine.
